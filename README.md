@@ -1,4 +1,4 @@
-# shark-tank-us-dataset
+# Shark Tank US dataset
 SharkTank dataset of USA/American television business reality show
 
 Here is the data dictionary for Shark Tank USA season's dataset.
