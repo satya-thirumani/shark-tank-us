@@ -1,41 +1,43 @@
 # Shark Tank US dataset
-SharkTank dataset of USA/American television business reality show
+SharkTank dataset of USA/American television business reality show.
+
+Currently, the data set has information from SharkTank season 1 to Shark Tank US season 15. The dataset has 52 fields/columns and 1320+ records.
 
 Here is the data dictionary for Shark Tank USA season's dataset.
 
 - Season Number - Season number
 
-- Season Start - Season first aired date
-
-- Season End - Season last aired date
+- Startup Name - Startup company name
 
 - Episode Number - Episode number within the season
 
 - Pitch Number - Overall pitch number
 
-- Original Air Date - Episode original aired date
+- Season Start - Season first aired date
 
-- Startup Name - Startup company name
+- Season End - Season last aired date
+
+- Original Air Date - Episode original/first aired date, on OTT/TV
 
 - Industry - Industry name or type
 
 - Business Description - Business Description
 
-- Pitchers Gender - Gender of pitchers
+- Company Website - Website of startup/company
 
-- Pitchers State - US state of pitchers, two letter shortcut
+- Pitchers Gender - Gender of pitchers
 
 - Pitchers City - US city of pitchers
 
-- Pitchers Average Age - Average age of all pitchers
+- Pitchers State - US state or country of pitchers, two letter shortcut
+
+- Pitchers Average Age - Average age of all pitchers, <30 young, 30-50 middle, >50 old
 
 - Entrepreneur Names - Pitcher name
 
-- Company Website - Website of startup/company
-
 - Multiple Entrepreneurs - Multiple entrepreneurs are present ?  1-yes, 0-no
 
-- US Viewership - Viewership in US, in millions
+- US Viewership - Viewership in US, TRP rating, in millions
 
 - Original Ask Amount - Original Ask Amount, in USD
 
@@ -45,7 +47,7 @@ Here is the data dictionary for Shark Tank USA season's dataset.
 
 - Got Deal - Got the deal or not,  1-yes, 0-no
 
-- Total Deal Amount - Total Deal Amount, in USD
+- Total Deal Amount - Total Deal Amount, in USD, including debt/loan amount
 
 - Total Deal Equity - Total Deal Equity, in percentages
 
@@ -57,9 +59,11 @@ Here is the data dictionary for Shark Tank USA season's dataset.
 
 - Equity Per Shark - Equity received by each Shark
 
-- Royalty Deal - Is it royalty deal?
+- Royalty Deal - Is it royalty deal or deal with advisory shares
 
-- Loan - Loan/debt has been offered?
+- Loan - Loan/debt (line of credit) amount given by sharks, in USD
+
+- Deal has conditions - Deal has conditions or not?
 
 - Barbara Corcoran Investment Amount - Amount Invested by Barbara Corcoran
 
@@ -89,6 +93,8 @@ Here is the data dictionary for Shark Tank USA season's dataset.
 
 - Guest Investment Equity - Equity received by Guests
 
+- Guest Name - Name of Guest shark
+
 - Barbara Corcoran Present - Whether Barbara Corcoran present in episode or not
 
 - Mark Cuban Present - Whether Mark Cuban present in episode or not
@@ -101,8 +107,5 @@ Here is the data dictionary for Shark Tank USA season's dataset.
 
 - Kevin O Leary Present - Whether Kevin O Leary present in episode or not
 
-- Kevin Harrington Present - Whether Kevin Harrington present in episode or not
+- Guest Present - Whether Guest present in episode or not
 
-- Guest Name - Name of Guest shark
-
-- Notes - Remarks
